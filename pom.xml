@@ -17,11 +17,11 @@
   <version>1</version>
 
 
-<build>
+
   <properties>
     <scala.version>2.13</scala.version>
   </properties>
-</build>
+
 
 
   <dependencies>
