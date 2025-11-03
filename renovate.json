@@ -2,5 +2,38 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+
+
+
+    {
+
+
+      "matchDatasources": [
+
+
+        "maven"
+
+
+      ],
+
+
+      "matchPackageNames": [
+
+
+        "org.scalatestplus:mockito-3-12_2.13"
+
+
+      ],
+
+
+      "replacementName": "org.scalatestplus:mockito-4-11_2.13",
+
+
+      "replacementVersion": "3.12.16.0"
+
+
+    }
   ]
 }
