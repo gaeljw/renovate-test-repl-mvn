@@ -1,1 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
 
+
+
+  <modelVersion>4.0.0</modelVersion>
+
+
+  
+
+
+  <groupId>com.mycompany.app</groupId>
+
+
+  <artifactId>my-app</artifactId>
+
+
+  <version>1</version>
+
+
+<build>
+  <properties>
+    <scala.version>2.13</scala.version>
+  </properties>
+</build>
+
+
+  <dependencies>
+
+
+    <dependency>
+
+
+      <groupId>org.scalatestplus</groupId>
+
+
+      <artifactId>mockito-3-12_${scala.version}</artifactId>
+
+
+      <version>3.2.10.0</version>
+
+
+    </dependency>
+
+
+  </dependencies>
+
+
+
+
+
+</project>
