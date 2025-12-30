@@ -36,7 +36,7 @@
       <artifactId>mockito-3-12_${scala.version}</artifactId>
 
 
-      <version>3.2.10.0</version>
+      <version>3.12.16.0</version>
 
 
     </dependency>
